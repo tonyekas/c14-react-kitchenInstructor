@@ -1,8 +1,9 @@
 import './JsxPassingProps.css'
 
-function CoolButton() {
+
+function CoolButton({ caption }) {
     return (
-        <button className="cool-button">NOT CUSTOMIZABLE</button>
+        <button className="cool-button">{caption}</button>
     )    
 }
 
@@ -17,9 +18,9 @@ export default function JsxPassingProps() {
             <p>FYI: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring">MDN Docs on Destructuring</a></p>
             <p>Make the CoolButton component accept a prop called "caption", use this prop to make the following three buttons have the titles: "Ready" then "Set" then "Go!"</p>
 
-            <CoolButton />
-            <CoolButton />
-            <CoolButton />
+            <CoolButton caption="Ready"/>
+            <CoolButton caption="Set"/>
+            <CoolButton caption="Go!" />
         </div>
     )
 }

@@ -22,9 +22,10 @@ export default function JsxTernary() {
             <p>Below there is a button that switches the state of <code>toggle</code>.</p>
             <p>Wrap the Bob Ross quotes below so that it switches between which one is visible every time you click the button.</p>
             <hr/>
-            <button className="cool-button" onClick={doToggle}>Show other quote</button>
-            <p>Beauty is everywhere. You only have to look to see it. - Bob Ross</p>
-            <p>We don't make mistakes, we just have happy accidents - Bob Ross</p>
+            <button className="cool-button" onClick={doToggle}>{toggle ? "Show Main" : "Show second"}</button>
+            {toggle ? <p>We don't make mistakes, we just have happy accidents - Bob Ross</p> : <p>Beauty is everywhere. You only have to look to see it. - Bob Ross</p>}
+            {/* <p>Beauty is everywhere. You only have to look to see it. - Bob Ross</p>
+            <p>We don't make mistakes, we just have happy accidents - Bob Ross</p> */}
         </div>
     )
 }

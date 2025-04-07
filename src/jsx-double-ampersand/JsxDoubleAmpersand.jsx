@@ -23,8 +23,8 @@ export default function JsxDoubleAmpersand() {
             <p>Wrap the Bob Ross quote below so that it only shows when the toggle state is true.</p>
             <p>You may have to scroll to see it when it is visible.</p>
             <hr/>
-            <button className="cool-button" onClick={doToggle}>Show/Hide component</button>
-            <p>Beauty is everywhere. You only have to look to see it. - Bob Ross</p>
+            <button className="cool-button" onClick={doToggle}> {toggle ? "Show quotes" : "Hide quote"}</button>
+            {toggle && (<p>Beauty is everywhere. You only have to look to see it. - Bob Ross</p>)}
         </div>
     )
 }

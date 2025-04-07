@@ -4,6 +4,10 @@ import './InteractionOnChange.css'
 export default function InteractionOnChange() {
 
     const [name, setName] = useState("Emily")
+    
+    function updateName(event) {
+        setName(event.target.value)
+    }
 
     return (
         <div>
@@ -14,7 +18,7 @@ export default function InteractionOnChange() {
             <p>Create an onChange handler to update the "name" state variable as the user enters text in the below input.</p>
             <p>Also, set the "value" prop in the input to the be the value of the "name" state variable so you can see the value as you update it.  This is called creating a "Managed" input.</p>
             <p>The name is: <b>{ name }</b></p>
-            <input className="name-text"/>
+            <input className="name-text" value={ name } onChange={updateName}/>
         </div>
     )
 }

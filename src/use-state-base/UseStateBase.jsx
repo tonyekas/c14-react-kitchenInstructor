@@ -1,10 +1,17 @@
 
+import{ useState } from 'react'
+// import './UseStateBase.css'
+
 export default function UseStateBase() {
+    const [toggle, setToggle] = useState("on")
 
     function turnOn() {
+        setToggle("on")
+        
     }
 
     function turnOff() {
+        setToggle("off")
     }
 
     return (
@@ -25,7 +32,7 @@ export default function UseStateBase() {
             <p>Update click handlers to the buttons below to call the "setToggle" to update the state between the values "on" and "off" </p>
             <p>Test that it is working by clicking the buttons.</p>
             <hr/>
-            <p>The toggle value is <b>NOT DEFINED YET</b></p>
+            <p>The toggle value is {toggle}</p>
             <button onClick={turnOn}>Turn on</button>            
             <button onClick={turnOff}>Turn off</button>            
         </div>
