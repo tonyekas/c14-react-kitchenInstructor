@@ -11,6 +11,10 @@ import JsxTemplateProps from './jsx-template-props/JsxTemplateProps'
 import JsxFragments from './jsx-fragments/JsxFragments'
 import UseStateOnChangeAndProps from './onChange-state-and-props/UseStateOnChangeAndProps'
 import JsxPassingProps from './jsx-props/JsxPassingProps'
+import JsxDoubleAmpersand from './jsx-double-ampersand/JsxDoubleAmpersand'
+import JsxTernary from './jsx-ternary/JsxTernary'
+import JsxArrayMap from './jsx-array-map/JsxArrayMap'
+import JsxBooleans from './jsx-booleans/JsxBoolean'
 
 const recipes = [
   { title: 'Foundations - Components and Props' },
@@ -51,6 +55,24 @@ const recipes = [
   { title: 'JSX - Interaction onChange', 
     component: InteractionOnChange,
     path: 'interaction-onchange/InteractionOnChange.jsx'
+  },
+
+  { title: 'JSX Tricks' },
+  { title: 'JSX - hide components with && ',
+    component: JsxDoubleAmpersand,
+    path: 'jsx-double-ampersand/JsxDoubleAmpersand.jsx'
+  },
+  { title: 'JSX - Choose between components with ternary expression',
+    component: JsxTernary,
+    path: 'jsx-ternary/JsxTernary.jsx'
+  },
+  { title: 'JSX - Handling booleans',
+    component: JsxBooleans,
+    path: 'jsx-booleans/JsxBooleans.jsx'
+  },
+  { title: 'JSX - Arrays of components',
+    component: JsxArrayMap,
+    path: 'jsx-array-map/JsxArrayMap.jsx'
   },
 
   { title: 'Applications' },
