@@ -14,6 +14,7 @@ import JsxPassingProps from './jsx-props/JsxPassingProps'
 import JsxDoubleAmpersand from './jsx-double-ampersand/JsxDoubleAmpersand'
 import JsxTernary from './jsx-ternary/JsxTernary'
 import JsxArrayMap from './jsx-array-map/JsxArrayMap'
+import JsxBooleans from './jsx-booleans/JsxBoolean'
 
 const recipes = [
   { title: 'Foundations - Components and Props' },
@@ -64,6 +65,10 @@ const recipes = [
   { title: 'JSX - Choose between components with ternary expression',
     component: JsxTernary,
     path: 'jsx-ternary/JsxTernary.jsx'
+  },
+  { title: 'JSX - Handling booleans',
+    component: JsxBooleans,
+    path: 'jsx-booleans/JsxBooleans.jsx'
   },
   { title: 'JSX - Arrays of components',
     component: JsxArrayMap,
