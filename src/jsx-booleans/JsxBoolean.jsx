@@ -17,7 +17,7 @@ export default function JsxBooleans() {
                 <li>use a ternary expression <code>(value ? 'yes': 'no')</code> to convert the boolean to whatever you like</li>
                 <li>use an expression hack like <code>''+value</code> to append the boolean value to a string</li>
             </ol>
-            <p>Use one of the techniques below to make the "toggle value" show properly when the value is false.</p>
+            <p>Use one of the techniques below to make the "toggle value" show properly.</p>
             <p><i>Bonus points - </i>use a ternary expression to control the label on the button to switch between "Show quote" and "Hide quote"</p>
             <hr/>
             <p>The toggle value is <b>{ toggle }</b></p>
