@@ -15,6 +15,7 @@ import JsxDoubleAmpersand from './jsx-double-ampersand/JsxDoubleAmpersand'
 import JsxTernary from './jsx-ternary/JsxTernary'
 import JsxArrayMap from './jsx-array-map/JsxArrayMap'
 import JsxBooleans from './jsx-booleans/JsxBoolean'
+import FormsValidation from './forms-validation/FormsValidation'
 
 const recipes = [
   { title: 'Foundations - Components and Props' },
@@ -87,6 +88,11 @@ const recipes = [
   { title: 'Extract, Props, Onchange', 
     component: UseStateOnChangeAndProps,
     path: 'onChange-state-and-props/UseStateOnChangeAndProps.jsx'
+  },
+  {
+    title: 'Validating Form Data',
+    component: FormsValidation,
+    path: 'forms-validation/FormsValidation.jsx'
   }
 
 ]
