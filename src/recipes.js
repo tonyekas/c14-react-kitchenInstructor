@@ -15,6 +15,8 @@ import JsxDoubleAmpersand from './jsx-double-ampersand/JsxDoubleAmpersand'
 import JsxTernary from './jsx-ternary/JsxTernary'
 import JsxArrayMap from './jsx-array-map/JsxArrayMap'
 import JsxBooleans from './jsx-booleans/JsxBoolean'
+import FormsValidation from './forms-validation/FormsValidation'
+import InteractionOnChangeNonString from './interaction-onchange-non-string/InteractionOnChangeNonString'
 
 const recipes = [
   { title: 'Foundations - Components and Props' },
@@ -56,6 +58,10 @@ const recipes = [
     component: InteractionOnChange,
     path: 'interaction-onchange/InteractionOnChange.jsx'
   },
+  { title: 'onChange and Strings', 
+    component: InteractionOnChangeNonString,
+    path: 'interaction-onchange-non-string/InteractionOnChangeNonString.jsx'
+  },
 
   { title: 'JSX Tricks' },
   { title: 'JSX - hide components with && ',
@@ -87,6 +93,11 @@ const recipes = [
   { title: 'Extract, Props, Onchange', 
     component: UseStateOnChangeAndProps,
     path: 'onChange-state-and-props/UseStateOnChangeAndProps.jsx'
+  },
+  {
+    title: 'Validating Form Data',
+    component: FormsValidation,
+    path: 'forms-validation/FormsValidation.jsx'
   }
 
 ]
