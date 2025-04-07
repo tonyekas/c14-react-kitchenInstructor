@@ -16,55 +16,55 @@ const recipes = [
   { title: 'Foundations - Components and Props' },
   { title: 'Starting with Components', 
     component: ExtractComponent,
-    path: 'extract-component/ExtractComponent.js'
+    path: 'extract-component/ExtractComponent.jsx'
   },
   { title: 'Components in other Files', 
     component: ExtractComponentToAnotherFile,
-    path: 'extract-component-to-another-file/ExtractComponentToAnotherFile.js'
+    path: 'extract-component-to-another-file/ExtractComponentToAnotherFile.jsx'
   },
   { title: 'JSX - use {} for content', 
     component: JsxTemplateContent,
-    path: 'jsx-template-content/JsxTemplateContent.js'
+    path: 'jsx-template-content/JsxTemplateContent.jsx'
   },
   { title: 'JSX - passing props to components',
     component: JsxPassingProps,
-    path: 'jsx-props/JsxPassingProps.js'   
+    path: 'jsx-props/JsxPassingProps.jsx'   
   },
   { title: 'JSX - use {} for props', 
     component: JsxTemplateProps,
-    path: 'jsx-template-props/JsxTemplateProps.js'
+    path: 'jsx-template-props/JsxTemplateProps.jsx'
   },
   { title: 'JSX - Fragments', 
     component: JsxFragments,
-    path: 'jsx-fragments/JsxFragments.js'
+    path: 'jsx-fragments/JsxFragments.jsx'
   },
 
   { title: 'Foundations - State and User Interactions' },
-  { title: 'JSX - Interaction onClick ', 
+  { title: 'JSX - Interaction onClick', 
     component: InteractionOnClick,
-    path: 'interaction-onclick/InteractionOnClick.js'
+    path: 'interaction-onclick/InteractionOnClick.jsx'
   },
   { title: 'Use State - Base', 
     component: UseStateBase,
-    path: 'use-state-base/UseStateBase.js'
+    path: 'use-state-base/UseStateBase.jsx'
   },
   { title: 'JSX - Interaction onChange', 
     component: InteractionOnChange,
-    path: 'interaction-onchange/InteractionOnChange.js'
+    path: 'interaction-onchange/InteractionOnChange.jsx'
   },
 
   { title: 'Applications' },
   { title: 'Extracting with props', 
     component: ExtractComponentWithProps,
-    path: 'extract-component-with-props/ExtractComponentWithProps.js'
+    path: 'extract-component-with-props/ExtractComponentWithProps.jsx'
   },
   { title: 'useState and CSS', 
     component: UseStateAndCss,
-    path: 'use-state-for-css/UseStateAndCss.js'
+    path: 'use-state-for-css/UseStateAndCss.jsx'
   },
   { title: 'Extract, Props, Onchange', 
     component: UseStateOnChangeAndProps,
-    path: 'onChange-state-and-props/UseStateOnChangeAndProps.js'
+    path: 'onChange-state-and-props/UseStateOnChangeAndProps.jsx'
   }
 
 ]

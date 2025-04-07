@@ -13,7 +13,7 @@ function NoRecipe() {
         <li>Look directly at the answer code, read it and copy/paste the parts you need.</li>
         <li>Refer to REACT documentation or code examples from StackOverflow or GPT. Use those patterns to solve your problem</li>
         <li>Try your own solution using your memory and creativity, fall back to the previous level when the struggle becomes too great</li>
-        <li>Your solutions typipcally work without spending too much time referring to documentation or samples - have a look at the sample code anyway and contrast the approach</li>
+        <li>Your solutions typically work without spending too much time referring to documentation or samples - have a look at the sample code anyway and contrast the approach</li>
         <li>Creatively come up with multiple differents ways to accomplish your goal by changing the balance of the component hierarchy, JSX / CSS / JavaScript. Choose the ones that fits your situation the best.</li>
       </ol>
       <p>You can test your level again by discarding your changes to the files using git and starting over to see if your approach has changed.</p>
