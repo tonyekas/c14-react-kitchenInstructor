@@ -12,6 +12,7 @@ import JsxFragments from './jsx-fragments/JsxFragments'
 import UseStateOnChangeAndProps from './onChange-state-and-props/UseStateOnChangeAndProps'
 import JsxPassingProps from './jsx-props/JsxPassingProps'
 import JsxDoubleAmpersand from './jsx-double-ampersand/JsxDoubleAmpersand'
+import JsxTernary from './jsx-ternary/JsxTernary'
 
 const recipes = [
   { title: 'Foundations - Components and Props' },
@@ -58,6 +59,10 @@ const recipes = [
   { title: 'JSX - hide components with && ',
     component: JsxDoubleAmpersand,
     path: 'jsx-double-ampersand/JsxDoubleAmpersand.jsx'
+  },
+  { title: 'JSX - Choose between components with ternary expression',
+    component: JsxTernary,
+    path: 'jsx-ternary/JsxTernary.jsx'
   },
 
   { title: 'Applications' },
