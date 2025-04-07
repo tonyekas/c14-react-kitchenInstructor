@@ -16,6 +16,7 @@ import JsxTernary from './jsx-ternary/JsxTernary'
 import JsxArrayMap from './jsx-array-map/JsxArrayMap'
 import JsxBooleans from './jsx-booleans/JsxBoolean'
 import FormsValidation from './forms-validation/FormsValidation'
+import InteractionOnChangeNonString from './interaction-onchange-non-string/InteractionOnChangeNonString'
 
 const recipes = [
   { title: 'Foundations - Components and Props' },
@@ -56,6 +57,10 @@ const recipes = [
   { title: 'JSX - Interaction onChange', 
     component: InteractionOnChange,
     path: 'interaction-onchange/InteractionOnChange.jsx'
+  },
+  { title: 'onChange and Strings', 
+    component: InteractionOnChangeNonString,
+    path: 'interaction-onchange-non-string/InteractionOnChangeNonString.jsx'
   },
 
   { title: 'JSX Tricks' },
