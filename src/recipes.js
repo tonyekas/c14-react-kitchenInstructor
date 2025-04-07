@@ -13,6 +13,7 @@ import UseStateOnChangeAndProps from './onChange-state-and-props/UseStateOnChang
 import JsxPassingProps from './jsx-props/JsxPassingProps'
 import JsxDoubleAmpersand from './jsx-double-ampersand/JsxDoubleAmpersand'
 import JsxTernary from './jsx-ternary/JsxTernary'
+import JsxArrayMap from './jsx-array-map/JsxArrayMap'
 
 const recipes = [
   { title: 'Foundations - Components and Props' },
@@ -63,6 +64,10 @@ const recipes = [
   { title: 'JSX - Choose between components with ternary expression',
     component: JsxTernary,
     path: 'jsx-ternary/JsxTernary.jsx'
+  },
+  { title: 'JSX - Arrays of components',
+    component: JsxArrayMap,
+    path: 'jsx-array-map/JsxArrayMap.jsx'
   },
 
   { title: 'Applications' },

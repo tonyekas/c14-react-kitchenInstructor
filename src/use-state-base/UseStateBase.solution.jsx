@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function() {
+export default function UseStateBase() {
     const [toggle, setToggle] = useState("on")
 
     function turnOn() {
